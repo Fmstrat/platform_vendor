@@ -11,6 +11,9 @@ PRODUCT_DEVICE := mako
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
 
+# Build prop fingerprint overrides
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="occam" BUILD_FINGERPRINT="google/occam/mako:5.0/LRX21V/1576899:user/release-keys" PRIVATE_BUILD_DESC="occam-user 5.0 LRX21V 1576899 release-keys"
+
 # Common build prop overrides
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
